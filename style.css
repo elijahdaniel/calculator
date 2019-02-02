@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 700px 1fr;
+    grid-template-rows: 150px auto 1fr;
+    margin-top: 100px;
+}
+
+.print-display {
+    background: #fff;
+    font-size: 80px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding-top: 45px;
+    padding-right: 5px;
+    text-align: right;
+    font-family: 'Major Mono Display', monospace;
+    animation: fade 3s;
+    border: 1px solid rgb(218, 218, 218);
+
+}
+
+.clear-backspace {
+    background: #1d497c;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    grid-column: span 1;
+    grid-row: span 1;
+    outline: 0;
+    text-align: center;
+    transition: all .04s;
+    font-family: 'Major Mono Display', monospace;
+    animation: fade 3s;
+}
+
+.button-container {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-gap: 2px;
+    grid-row: 2 / 3;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 30px);
+    padding: 1px;
+}
+
+.btn {
+    background: linear-gradient(to bottom right, #3a3a3a, #000);
+    color: #ffffff;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    animation: fade 3s;
+    font-family: 'Major Mono Display', monospace;
+    transition: all 1s ease;
+}
+
+button:hover {
+    opacity: .5;
+}
+
+.btn-eq {
+    background: #1d497c;
+    font-family: 'Major Mono Display', monospace;
+    animation: fade 3s;
+}
+
+#op {
+    background: #e0c885;
+}
+
+.clear-backspace {
+    background:  #1d497c;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    grid-column: span 1;
+    height: 30px;
+    grid-row: span 1;
+    outline: 0;
+    border: 0;
+    text-align: center;
+    transition: all .04s;
+    font-family: 'Major Mono Display', monospace;
+    animation: fade 3s;
+}
+
+@keyframes fade {
+    0% {opacity: 0; transform: rotate(100deg);}
+    20% {opacity: 0;}
+    100% {opacity: 1;}
+}
