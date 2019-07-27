@@ -6,8 +6,8 @@ body {
 
 .container {
     width: 306px;
-    height: 464px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.192);
+    height: 462px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.192);
     animation: fade 2s;
 }
 
@@ -54,6 +54,9 @@ body {
     color: white;
     border: 0;
     outline: 0;
+    height: 75px;
+    position: relative;
+    /* top: 1px; */
 }
 
 #equal {
