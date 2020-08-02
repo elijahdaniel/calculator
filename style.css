@@ -1,88 +1,101 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 body {
-    margin-top: 100px;
-    background: linear-gradient(to right, #f26b52 50%, #0099ff 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(to right, #f26b52 50%, #0099ff 50%);
 }
 
 .container {
-    width: 306px;
-    height: 462px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.192);
-    animation: fade 2s;
+  width: 306px;
+  height: 462px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.192);
+  animation: fade 2s;
 }
 
 .print-display {
-    width: 306px;
-    height: 80px;
-    font-size: 35px;
-    padding-top: 20px;
-    font-family: 'Montserrat', sans-serif;
-    color: #000;
-    background: #FFF;
-    margin-bottom: -1px;
-    animation: fade 2s;
-    z-index: -1;
+  width: 306px;
+  height: 80px;
+  font-size: 35px;
+  padding-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  background: #fff;
+  margin-bottom: -1px;
+  animation: fade 2s;
+  z-index: -1;
 }
 
 .btn {
-    width: 78px;
-    height: 78px;
-    animation: fade 2s;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    outline: 0;
-    background: white;
-    border: 0;
-    margin: -3px;
+  width: 78px;
+  height: 78px;
+  animation: fade 2s;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  outline: 0;
+  background: white;
+  border: 0;
+  margin: -3px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: rgb(238, 238, 238);
 }
 
 .cb {
-    width: 78px;
-    height: 78px;
-    animation: fade 2s;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    background: #1f87dd;
-    color: white;
-    outline: 0;
-    border: 0;
-    margin: -3px;
+  width: 78px;
+  height: 78px;
+  animation: fade 2s;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  background: #1f87dd;
+  color: white;
+  outline: 0;
+  border: 0;
+  margin: -3px;
+}
+
+.cb:hover {
+  cursor: pointer;
 }
 
 #exp {
-    background: rgb(68, 68, 68);
-    color: white;
-    border: 0;
-    outline: 0;
-    height: 75px;
-    position: relative;
-    /* top: 1px; */
+  background: rgb(68, 68, 68);
+  color: white;
+  border: 0;
+  outline: 0;
+  height: 75px;
+  position: relative;
+  /* top: 1px; */
 }
 
 #equal {
-    background: #f26b52;
+  background: #f26b52;
 }
 
 .blank {
-    width: 78px;
-    height: 78px;
-    animation: fade 2s;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    background: #FFF;
-    color: white;
-    outline: 0;
-    border: 0;
+  width: 78px;
+  height: 78px;
+  animation: fade 2s;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  background: #fff;
+  color: white;
+  outline: 0;
+  border: 0;
 }
 
 @keyframes fade {
-    0% {
-        opacity: 0;
-    }
-    20% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
