@@ -1,2 +1,3 @@
 # Javascript Calculator
-This is a simple web app calculator, that has the same functionality as a normal calculator, and also gets floating point numbers.
+
+This is a simple web calculator that allows your to work with floating point and whole numbers.
